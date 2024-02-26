@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasbih Counter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+  </head>
+  <body>
+    <div class="container1">
+      <h1><span>Tas</span>bih</h1>
+      <div class="counter" onclick="increase()">
+        <div class="display">
+          <input
+            type="number"
+            placeholder="0" 
+            readonly
+            id="first"
+            class="inp"
+          />
+        </div>
+      </div>
+
+      <div class="limit">
+        <button onclick="limit()" class="set">Set Limit</button>
+      </div>
+
+      <div class="reset">
+        <button class="ret" onclick="rety()"><i class="fa-solid fa-rotate fa-2xl"></i></button>
+      </div>
+
+      <div id="pop-up"></div>
+     </div>
+
+    <script src="counter.js"></script>
+  </body>
+</html>

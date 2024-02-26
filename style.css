@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.container1 {
+  /* border: 1px solid black; */
+  height: 100vh;
+  margin: 10px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 4px;
+}
+
+span {
+  color: #1eccdc;
+}
+
+.counter {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background-color: #313b45;
+  border: 5px solid #4dd4e0;
+}
+
+.display {
+  position: relative;
+  top: 50%;
+  margin-inline: 30px;
+  transform: translate(0, -50%);
+}
+
+.inp {
+  font-size: 110px;
+  height: 150px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  border: none;
+  cursor: pointer;
+  background-color: #313b45;
+  color: #4dd4e0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  outline: none !important;
+  border-width: 0px !important;
+  border: none !important;
+}
+
+.reset {
+  position: absolute;
+  top: 60%;
+  right: 30%;
+}
+
+.ret {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #4dd4e0;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.limit {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+
+@media (max-width: 600px) {
+  .limit {
+    left: 8%;
+  }
+
+  .reset {
+    right: 8%;
+  }
+
+  #ytr {
+    left: 12%;
+  }
+}
+
+.set {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #4dd4e0;
+  background-color: #313b45;
+  border: 2px solid #4dd4e0;
+}
+#ytr {
+  background-color: #455564;
+  height: 130px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#second {
+  width: 220px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #4dd4e0;
+}
+.sav {
+  padding: 7px 15px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #4dd4e0;
+  background-color: #3d4a56;
+  border: 2px solid #4dd4e0;
+  border-radius: 6px;
+}
