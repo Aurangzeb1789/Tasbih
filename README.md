@@ -16,4 +16,6 @@ CSS  <br>
 JavaScript <br>
 <h2> Contributing </h2>
 Contributions are welcome! Feel free to submit pull requests or open issues.
+<h2> Live Project </h2>
+You can access the live Tasbih web app (https://tasbihat.netlify.app/).
 
