@@ -1,7 +1,7 @@
 # Tasbih
 Tasbih is a simple web application designed to help users keep track of their repetitions of a particular phrase or word, often used in religious or meditative practices. The term "tasbih" itself is derived from Arabic and is commonly associated with the recitation of the name of Allah in Islam.
 <h2> Features </h2>
---> Counting Repetitions: Users can click on a circle button to increment the count of their repetitions. Each click represents one repetition. <br>
+--> Counting Repetitions: Users can click on a circle button to increment the count of their repetitions. Each click     represents one repetition. <br>
 --> Limit Setting: Users can set a limit to their repetitions. Once the limit is reached, the Mobile phone Start Vibrating. <br>
 --> Reset Button: Users can reset the count to zero at any time. <br>
 --> Responsive Design: The web app is designed to work on both desktop and mobile devices. <br>
